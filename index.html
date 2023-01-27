@@ -8,20 +8,19 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-   <header class="header">
+   <header id="instructions" class="header">
     <h1>Coding Quiz Challenge</h1>
+    <div >Try to answer the following code related questions within the time limit <br />
+        Keep in mind that incorrect answers will penalize your score/time by 10 seconds </div> <br />
+        <button class="start" role="button">START</button>
    </header>
-   <article class="article">
-    <p>Try to answer the following code related questions within the time limit</p>
-    <p>Keep in mind that incorrect answers will penalize your score/time by 10 seconds </p>
+   <article>
+   
    </article>
-   <button class="button-85" role="button">START</button>
-   <form>
-    <details>
-        <div id="question">
-
-        </div>
-    </details>
+   
+   <form class="display">
+          <label id="question">What is the meaning of life?
+          </label>
     <table>
         <ul>
             <li>
@@ -30,5 +29,6 @@
         </ul>
     </table>
    </form>
+   <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -12,11 +12,35 @@ li {
     list-style-type: none;
 }
 
+article {
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+label {
+    display: none;
+}
+
+.instructions {
+    padding:.5em;
+}
+
+.instructions .display{
+    display: none;
+}
+.editing label {
+    display: inline-block;
+}
+
+.editing .display {
+    display: none;
+}
 
 
 /* CSS */
-.button-85 {
+.start{
   padding: 0.6em 2em;
+  margin: 0.5em;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
@@ -30,7 +54,7 @@ li {
   touch-action: manipulation;
 }
 
-.button-85:before {
+.start:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -70,7 +94,7 @@ li {
   }
 }
 
-.button-85:after {
+.start:after {
   z-index: -1;
   content: "";
   position: absolute;
