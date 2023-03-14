@@ -4,18 +4,16 @@
     background-color: black;
 }
 
-header{
-
-}
 
 li {
     list-style-type: none;
 }
 
-article {
+article, .container {
     padding: 0.2em;
     margin: 0.2em;
 }
+
 
 label {
     display: none;
