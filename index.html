@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8" />  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Coding Quiz Challenge</title>
+         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="nav-link text-primary" id="navhighscorelink">High Scores</a>
+            <span class="ml-auto" id="timer"></span>
+        </nav>
+    
+    <!--End of Head-->
+    </head> 
+<!-- Begin Body -->
+<body>
+<!-- Begin main -->
+<main>
+      
+    <!-- Begin container -->
+    <div class="container">
+
+        <!-- Begin card -->
+        <div class="card shadow rounded border-info"> 
+                            
+            <!-- Begin body -->
+            <div class="card-body">
+                
+                <!-- card title -->
+                <h2 class="card-title mb-4 text-success text-center" id="title">Coding Quiz Challenge</h2>
+        
+                <hr class="line">
+                
+                <div class="row">
+                    
+                    <div class="col-md-1">
+                    </div>
+
+                    <div class="col-md-10">
+                        
+                        <div id="mainContent">
+                            
+                            <h5 class="text-center">
+                                Try to answer the following Javascript fundamental questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!  
+                            </h5>
+                            
+                            <div class="text-center">
+                                <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
+                            </div>
+
+                        </div>
+
+                        <div id = "quizContent"></div>
+                        <div id = "score"></div>
+                        <div id = "highscores"> </div>
+                    
+                    </div>
+                </div>
+                                  
+                <div id="answer">
+                     <hr class="line">
+                </div>    
+
+            </div>
+        </div>               
+    
+    </div>
+    <br>
+<!-- End main -->
+</main>
+
+   </form>
+   <!--External js-->
+    <!-- link to external javascript -->
+    <script src="assets/js/testQuestions.js"></script>
+    <script src="assets/js/script.js"></script>
+   <!--Bootstrap js-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
